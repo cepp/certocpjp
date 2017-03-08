@@ -39,11 +39,11 @@ public class HandlingException {
 	 * relacionamentos de herança. Exemplo IOException é subclasse de Exception.
 	 */
 	private void exceptionHandlerMultiCatchError() {
-		try {
-			createFile();
-		} catch (IOException | Exception e) {
-			e.printStackTrace();
-		}
+//		try {
+//			createFile();
+//		} catch (IOException | Exception e) {
+//			e.printStackTrace();
+//		}
 	}
 
 	private void createFile() throws IOException, SecurityException {
